@@ -6,9 +6,13 @@ I selected multiple random forest models with different arguments in each of the
 Some models I used are-
 
 model_1 = RandomForestRegressor(n_estimators=50, random_state=0)
+
 model = RandomForestRegressor(n_estimators=100, random_state=1)
+
 model_3 = RandomForestRegressor(n_estimators=100, criterion='mae', random_state=0)
+
 model_4 = RandomForestRegressor(n_estimators=200, min_samples_split=20, random_state=0)
+
 model_5 = RandomForestRegressor(n_estimators=100, max_depth=7, random_state=0)
 
 
